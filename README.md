@@ -1,6 +1,3 @@
 # Data Analytics Portfolio
 
-### Projects
-E-Commerce Sales Analysis
-- lorem ipsum
-
+Personal portfolio webpage adapted from [evanca](https://github.com/evanca/quick-portfolio)
