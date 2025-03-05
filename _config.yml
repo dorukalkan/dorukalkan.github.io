@@ -1,5 +1,7 @@
 title: Doruk Alkan
+favicon: favicon.ico
 logo: assets/img/notion-avatar-1739440089331.png
+
 description: |
   <p><strong>Technical Skills</strong></p>
   <ul>
@@ -13,4 +15,5 @@ description: |
 
   <p><a href="mailto:dorukalkan1.0@gmail.com">Contact Me via E-mail</a></p>
   <p><a href="https://www.linkedin.com/in/doruk-alkan/">View My LinkedIn Profile</a></p>
+
 theme: jekyll-theme-minimal
