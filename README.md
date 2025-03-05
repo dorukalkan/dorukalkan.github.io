@@ -8,10 +8,10 @@
 <img src="assets/img/hotel_rev_dashboard.png"/>
 
 <p>
-  <strong>Skills:</strong>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(160,196,255,0.3); color: #3366CC; padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">SQL</span>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(160,196,255,0.3); color: #3366CC; padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">MySQL</span>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(160,196,255,0.3); color: #3366CC; padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">Power BI</span>
+  Skills used:
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">SQL</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">MySQL</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">Power BI</span>
 </p>
 
 ---
@@ -20,6 +20,6 @@
 <img src="assets/img/databel_churn_dashboard.png"/>
 
 <p>
-  <strong>Skills:</strong>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(160,196,255,0.3); color: #3366CC; padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">Excel</span>
+  Skills used:
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">Excel</span>
 </p>
