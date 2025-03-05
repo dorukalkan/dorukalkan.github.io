@@ -1,3 +1,8 @@
-# Data Analytics Portfolio
+## Portfolio
 
-Personal portfolio webpage adapted from [evanca](https://github.com/evanca/quick-portfolio)
+---
+
+### Data Analytics Projects
+
+[Hotel Revenue Analysis](projects/hotel_revenue_analysis)
+<img src="assets/img/hotel_rev_dashboard.png"/>
