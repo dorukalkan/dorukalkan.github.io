@@ -8,10 +8,10 @@
 <img src="assets/img/hotel_rev_dashboard.png"/>
 
 <p>
-  <strong>Skills:</strong>
-  <span class="tag" style="display:inline-block; margin-right:10px;">SQL</span>
-  <span class="tag" style="display:inline-block; margin-right:10px;">MySQL</span>
-  <span class="tag" style="display:inline-block; margin-right:10px;">Power BI</span>
+  <strong>Skills used:</strong>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color:#a0c4ff; color:#000; padding:5px 10px; border-radius:5px;">SQL</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color:#a0c4ff; color:#000; padding:5px 10px; border-radius:5px;">MySQL</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color:#a0c4ff; color:#000; padding:5px 10px; border-radius:5px;">Power BI</span>
 </p>
 
 ---
@@ -20,6 +20,6 @@
 <img src="assets/img/databel_churn_dashboard.png"/>
 
 <p>
-  <strong>Skills:</strong>
-  <span class="tag" style="display:inline-block; margin-right:10px;">Excel</span>
+  <strong>Skills used:</strong>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color:#a0c4ff; color:#000; padding:5px 10px; border-radius:5px;">Excel</span>
 </p>
