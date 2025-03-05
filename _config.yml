@@ -1,14 +1,15 @@
 title: Doruk Alkan
 logo: assets/img/notion-avatar-1739440089331.png
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  Technical Skills
-  - SQL: Postgres, MySQL, SQL Server
-  - Python: Pandas, NumPy, Matplotlib, Seaborn
-  - BI & Visualization: Power BI, Tableau
-  <br><br>
-  Education
-  B.A., Linguistics @Boğaziçi University (_February 2025_)
-  <br><br>
-  <a href="https://www.linkedin.com/in/doruk-alkan/">View My LinkedIn Profile</a> 
+description: |
+  <p><strong>Technical Skills</strong></p>
+  <ul>
+    <li>SQL: Postgres, MySQL, SQL Server</li>
+    <li>Python: Pandas, NumPy, Matplotlib, Seaborn</li>
+    <li>BI &amp; Visualization: Power BI, Tableau</li>
+  </ul>
 
+  <p><strong>Education</strong></p>
+  <p>B.A., Linguistics @Boğaziçi University (<em>February 2025</em>)</p>
+
+  <p><a href="https://www.linkedin.com/in/doruk-alkan/">View My LinkedIn Profile</a></p>
 theme: jekyll-theme-minimal
