@@ -1,8 +1,4 @@
-# Data Analyst
-
-### Education
-Linguistics, BA
-- lorem ipsum
+# Data Analytics Portfolio
 
 ### Projects
 E-Commerce Sales Analysis
