@@ -1,5 +1,10 @@
 title: Doruk Alkan
-#logo: /assets/img/ ??
-#description: text below image
-#show_downloads: true
+logo: assets/img/notion-avatar-1739440089331.png
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  First description 
+  <br><br>
+  Second description 
+  <br><br>
+  <a href="https://www.linkedin.com/in/doruk-alkan/">LinkedIn</a> 
+
 theme: jekyll-theme-minimal
