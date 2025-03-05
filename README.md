@@ -8,10 +8,10 @@
 <img src="assets/img/hotel_rev_dashboard.png"/>
 
 <p>
-  <strong>Skills used:</strong>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color:#a0c4ff; color:#000; padding:5px 10px; border-radius:5px;">SQL</span>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color:#a0c4ff; color:#000; padding:5px 10px; border-radius:5px;">MySQL</span>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color:#a0c4ff; color:#000; padding:5px 10px; border-radius:5px;">Power BI</span>
+  Skills used:
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(160,196,255,0.3); color: #1a1a1a; padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">SQL</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(160,196,255,0.3); color: #1a1a1a; padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">MySQL</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(160,196,255,0.3); color: #1a1a1a; padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">Power BI</span>
 </p>
 
 ---
@@ -20,6 +20,6 @@
 <img src="assets/img/databel_churn_dashboard.png"/>
 
 <p>
-  <strong>Skills used:</strong>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color:#a0c4ff; color:#000; padding:5px 10px; border-radius:5px;">Excel</span>
+  Skills used:
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(160,196,255,0.3); color: #1a1a1a; padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">Excel</span>
 </p>
