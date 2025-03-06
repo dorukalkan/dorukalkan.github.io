@@ -17,7 +17,7 @@
 ---
 
 [Telecom Provider Customer Churn Analysis](projects/telecom_churn_analysis.md)
-<img src="assets/img/databel_churn_dashboard.png"/>
+<img src="assets/img/telecom_churn_dashboard.png"/>
 
 <p>
   Skills used:
