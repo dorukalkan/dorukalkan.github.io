@@ -29,9 +29,12 @@
 
 Cross-Linguistic Analysis of Phonemes and Phoneme Inventories
 - _Undergraduate Thesis in Linguistics_
+<img src="assets/img/ling412_chart.png"/>
 
 Multiple Linear Regression Analysis on Pharmaceutical Drug Sales
 - _Term Project in Information Systems_
+<img src="assets/img/pharma_sales_kaggle.png"/>
 
 Morphological Parser for Turkish Using Finite State NLP Tools
 - _Term Project in Computational Linguistics (Collaborative)_
+<img src="assets/img/fst_example.png"/>
