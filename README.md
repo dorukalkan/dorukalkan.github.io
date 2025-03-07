@@ -23,3 +23,15 @@
   Skills used:
   <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">Excel</span>
 </p>
+
+
+### Academic Projects
+
+- Cross-Linguistic Analysis of Phonemes and Phoneme Inventories
+Undergraduate Thesis in Linguistics
+
+- Multiple Linear Regression Analysis on Pharmaceutical Drug Sales
+Term Project in Information Systems
+
+- Morphological Parser for Turkish Using Finite State NLP Tools
+Term Project in Computational Linguistics (Collaborative)
