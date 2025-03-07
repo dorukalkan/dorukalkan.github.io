@@ -52,7 +52,7 @@ _Term Project in Information Systems_
 
 ---
 
-Morphological Parser for Turkish Using Finite State NLP Tools<br>
+Morphological Parser for Turkish Using Finite State NLP<br>
 _Term Project in Computational Linguistics (Collaborative)_
 <img src="assets/img/fst_example.png"/>
 
