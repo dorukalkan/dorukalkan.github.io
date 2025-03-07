@@ -1,1 +1,1 @@
-A personal portolio webpage adapted from [evanca](https://github.com/evanca/quick-portfolio) based on [Minimal Jekyll theme](https://github.com/pages-themes/minimal) for [GitHub Pages](https://pages.github.com).
+A personal portfolio webpage adapted from [evanca](https://github.com/evanca/quick-portfolio) based on [Minimal Jekyll theme](https://github.com/pages-themes/minimal) for [GitHub Pages](https://pages.github.com).
