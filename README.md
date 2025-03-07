@@ -32,7 +32,9 @@ _Undergraduate Thesis in Linguistics_
 <p>
   <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">python</span>
   <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">pandas</span>
-  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">numpy</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">scipy</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">matplotlib</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">seaborn</span>
   <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">google sheets</span>
 </p>
 
@@ -56,4 +58,5 @@ _Term Project in Computational Linguistics (Collaborative)_
 <p>
   <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">python</span>
   <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">hfst</span>
+  <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(42, 102, 181, 0.2); color: rgb(42, 102, 181); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">streamlit</span>
 </p>
