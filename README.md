@@ -26,8 +26,7 @@
 
 ### Academic Projects
 
-Cross-Linguistic Analysis of Phonemes and Phoneme Inventories
-
+Cross-Linguistic Analysis of Phonological Markedness and Phoneme Inventories<br>
 _Undergraduate Thesis in Linguistics_
 <img src="assets/img/ling412_chart.png"/>
 
@@ -42,8 +41,7 @@ _Undergraduate Thesis in Linguistics_
 
 ---
 
-Multiple Linear Regression Analysis on Pharmaceutical Drug Sales
-
+Multiple Linear Regression Analysis on Pharmaceutical Drug Sales<br>
 _Term Project in Information Systems_
 <img src="assets/img/pharma_sales_kaggle.png"/>
 
@@ -54,8 +52,7 @@ _Term Project in Information Systems_
 
 ---
 
-Morphological Parser for Turkish Using Finite State NLP Tools
-
+Morphological Parser for Turkish Using Finite State NLP Tools<br>
 _Term Project in Computational Linguistics (Collaborative)_
 <img src="assets/img/fst_example.png"/>
 
