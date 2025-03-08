@@ -4,7 +4,7 @@ logo: assets/img/notion-avatar-1739440089331.png
 
 description: |
   <p><strong>Technical Skills</strong></p>
-  <ul style="margin-left: 0; padding-left: 0;">
+  <ul style="list-style: none; margin-left: 0; padding-left: 0;">
     <li>SQL | Postgres, MySQL, SQL Server</li>
     <li>Python | Pandas, NumPy, Matplotlib, Seaborn</li>
     <li>BI &amp; Visualization | Power BI, Tableau, Excel</li>
