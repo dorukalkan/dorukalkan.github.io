@@ -1,3 +1,3 @@
 ## Hotel Revenue Analysis
 
-wip
+:warning: Documentation for this project will be available soon.
