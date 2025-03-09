@@ -1,31 +1,36 @@
 ## Databel Customer Churn Analysis
 
 ### Overview
-
-**Project description:** This is an Excel project that investigates a dataset from a telecommunications company Databel and analyzes their churn rates. Churn is a significant business metric that is relevant for various industries, including the telecommunications sector which operates with a subscription-based model. Managing customer relations and minimizing churn is an ongoing process for businesses. In this project, churn is analyzed to figure out:
+#### Project description
+This is an Excel project that investigates a dataset from a telecommunications company Databel and analyzes their churn rates. Churn is a significant business metric that is relevant for various industries, including the telecommunications sector which operates with a subscription-based model. Managing customer relations and minimizing churn is an ongoing process for businesses. In this project, churn is analyzed to figure out:
 
 - What is the overall churn rate?
 - Why are customers churning?
 - Which customers are churning?
 - How to reduce churn?
 
-I've tried to account for these problem statements by creating calculated columns and fields, building PivotTables, and creating a dashboard to communicate insights.
-
-**Table of contents**
-1. [About dataset](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#1-about-dataset)
-2. [Data preparation](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#2-data-preparation)
-3. [Exploratory data analysis](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#3-exploratory-data-analysis)
-    - 3.1. [Churn reasons](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#31-churn-reasons)
-    - 3.2. [Demographics](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#32-demographics)
-    - 3.3. [Age groups](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#33-age-groups)
-    - 3.4. [Plan types](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#34-plan-types)
-    - 3.5. [International calls](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#35-international-calls)
-    - 3.6. [Contract type and length](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#36-contract-type-and-length)<br>
-4. [Dashboard](https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md#4-dashboard)
+I've addressed these problem statements by creating calculated columns and fields, building PivotTables, and creating a dashboard to communicate insights.
+#### Executive summary
+Key findings include: 
+- **High overall churn**: Churn rate is 26.86% among 6,687 customers, indicating that more than one in four customers are canceling their subscriptions. 
+- **Churn drivers:** Competition and subpar customer service are the leading causes.
+- **Demographic insights:** Senior citizens are identified as the most likely group to churn.
+- **Plan & data usage patterns:** Detailed investigation indicates that customers with unlimited plans who consume less than 5 GB of data are at higher risk of churn.
+- **Actionable recommendations:** The dashboard combines these insights into clear visualizations, and the last section guides potential strategies to reduce churn.
+#### Table of contents
+1. About dataset
+2. Data preparation
+3. Exploratory data analysis
+    - 3.1. Churn reasons
+    - 3.2. Demographics
+    - 3.3. Age groups
+    - 3.4. Plan types
+    - 3.5. International calls
+    - 3.6. Contract type and length<br>
+4. Dashboard
 5. Insights & recommendations
 
 ### 1. About dataset
-
 The dataset used for this project is a fictitious dataset taken from DataCamp.
 
 - A single table consisting of 29 columns
@@ -35,7 +40,6 @@ The dataset used for this project is a fictitious dataset taken from DataCamp.
 Columns contain information regarding demographics (age, gender), international plan details (plan, activity status, calls, minutes used, extra charges), data usage details (unlimited data plan, average monthly download, extra charges), and other details (account length, contract type, payment method). These details provide useful metrics while analyzing churn from various perspectives. 
 
 ### 2. Data preparation
-
 The initial step included cleaning the dataset to remove duplicates and handle records that contain missing values. Then I proceeded to create a new column named `Churned` and assigned 1 or 0 to each customer based on whether they canceled their subscription or not, which allowed me to easily calculate the churn rate during the analysis stage.
 
 ### 3. Exploratory data analysis
@@ -141,7 +145,7 @@ The company offers several contract types:
 I've explored how different contracts and account length influenced churn the most. Understandably so, Month-to-Month contracts and 1-year accounts have displayed the highest churn, and churn rate decreases as account length increases.
 But the more interesting finding has been that:
 
-> Customers between 3-4 year mark are much more likely to churn on a 1-year contract compared to 2-year contract.
+> 🔍 Customers between 3-4 year mark are much more likely to churn on a 1-year contract compared to 2-year contract.
 
 ### 4. Dashboard
 Lastly, I've built a dashboard by bringing together relevant tables and charts, and added key information such as:
@@ -153,3 +157,6 @@ Lastly, I've built a dashboard by bringing together relevant tables and charts, 
 <a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/img/telecom_churn_dashboard.png" target="_blank">
   <img src="/assets/img/telecom_churn_dashboard.png" alt="Telecom Churn Dashboard">
 </a>
+
+### 5. Insights & recommendations
+WIP
