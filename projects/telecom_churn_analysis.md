@@ -12,7 +12,6 @@
 I've tried to account for these problem statements by creating calculated columns and fields, building PivotTables, and creating a dashboard to communicate insights.
 
 **Table of contents**
-
 1. About dataset
 2. Data preparation
 3. Exploratory data analysis
@@ -40,44 +39,44 @@ I began exploring the dataset by creating a pivot table that displays the total 
 - 1796 customers have churned
 - Churn rate is 26,86%
 
-**Investigating churn reasons**
+**Investigating churn reasons**<br>
 As the churn rate at 26,86% is relatively high, the next step is to investigate why this is the case. I've created a pivot table displaying churn reasons and % of churned customers, and a bar chart to visualize them.
 
-<img src="assets/telecom_churn_analysis_appx/table_churn_reasons.png"/>
+<img src="/assets/telecom_churn_analysis_appx/table_churn_reasons.png"/>
 
 The most popular reason for churn results from competition, and customer service shouldn't be overlooked.
 
-<img src="assets/telecom_churn_analysis_appx/fig_churn_reasons.png"/>
+<img src="/assets/telecom_churn_analysis_appx/fig_churn_reasons.png"/>
 
 This led me to examine competition-related churn more closely:
 I've created another pivot filtering by churn reason category and a pie chart.
 
-<img src="assets/telecom_churn_analysis_appx/table_competition_churn.png"/>
+<img src="/assets/telecom_churn_analysis_appx/table_competition_churn.png"/>
 
-<img src="assets/telecom_churn_analysis_appx/fig_competition_churn.png"/>
+<img src="/assets/telecom_churn_analysis_appx/fig_competition_churn.png"/>
 
 Results of my initial exploratory analysis naturally raises the question:
 > 💭 Is Databel competitive enough?
 
 But there are still many columns unexplored before attempting to answer this question. Churn patterns can be further analyzed by focusing on demographics, age groups, plan types, and contract types.
 
-**Demographics**
+**Demographics**<br>
 The dataset categorizes individuals by age in three separate columns: Under 30, Senior, and Other. This required me to create a new column to see demographic groups in a single field and add a calculated field to see their churn.
 
-<img src="assets/telecom_churn_analysis_appx/fig_demographics.png"/>
+<img src="/assets/telecom_churn_analysis_appx/fig_demographics.png"/>
 
 > 🚨 Senior citizens churn the most.
 
-**Age groups**
+**Age groups**<br>
 I've looked into age dimension more closely to check whether there's a pattern or not. I've used a pivot table grouping ages by bins of 10, then created a clustered column - line chart.
 
-<img src="assets/telecom_churn_analysis_appx/table_age_groups.png"/>
+<img src="/assets/telecom_churn_analysis_appx/table_age_groups.png"/>
 
 Looks like churn rate gets higher as age group gets older, and older customers have the highest churn rate while being the smallest group.
 
-<img src="assets/telecom_churn_analysis_appx/fig_age_groups.png"/>
+<img src="/assets/telecom_churn_analysis_appx/fig_age_groups.png"/>
 
-**Plan types**
+**Plan types**<br>
 I've investigated how plan types influence churn by focusing on limited and unlimited mobile data plans. I had a hypothesis that people who are not on an unlimited data plan would be more likely to churn, but my preliminary exploration revealed the opposite: people on unlimited plan had a churn rate of 32,11% while people who are not had 16,10%.
 
 > 🔍 Contrary to my hypothesis, unlimited mobile data plan has higher churn.
@@ -92,13 +91,13 @@ To examine if this churn is related to the amount of internet usage, I've create
 	"Between 5 and 10 GB"))
 ```
 
-<img src="assets/telecom_churn_analysis_appx/table_unlimited_plan.png"/>
+<img src="/assets/telecom_churn_analysis_appx/table_unlimited_plan.png"/>
 
-<img src="assets/telecom_churn_analysis_appx/fig_data_consumption.png"/>
+<img src="/assets/telecom_churn_analysis_appx/fig_data_consumption.png"/>
 
 > 🚨 Individuals subscribed to unlimited plan who consume less than 5 GB of monthly mobile data are the most likely to churn.
 
-**International calls**
+**International calls**<br>
 An initial look at international calls has shown that there is not a drastic difference between international and non-international plans. 
 
 - International plan churn: 24,88%
@@ -108,4 +107,23 @@ I've then looked into this filtering by state, and applied conditional formattin
 
 > 🚨 California, Indiana, and New Hampshire are the top three states that have peak international plan churn, with over 60% churn rate.
 
-**Contract type and length**
+**Contract type and length**<br>
+
+The company offers several contract types:
+- Month-to-Month contract
+- 1-Year contract
+- 2-Year contract
+
+I've explored how different contracts and account length influenced churn the most. Understandably so, Month-to-Month contracts and 1-year accounts have displayed the highest churn, and churn rate decreases as account length increases.
+But the more interesting finding has been that:
+
+> Customers between 3-4 year mark are much more likely to churn on a 1-year contract compared to 2-year contract.
+
+### Dashboard
+Lastly, I've built a dashboard by bringing together relevant tables and charts, and added key information such as:
+- KPIs: total customers, number of churned customers, churn rate
+- Churn reasons
+- Demographics
+- Data consumption
+
+<img src="/assets/img/telecom_churn_dashboard.png"/>
