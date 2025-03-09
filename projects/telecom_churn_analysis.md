@@ -126,4 +126,6 @@ Lastly, I've built a dashboard by bringing together relevant tables and charts, 
 - Demographics
 - Data consumption
 
-<img src="/assets/img/telecom_churn_dashboard.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/img/telecom_churn_dashboard.png" target="_blank">
+  <img src="/assets/img/telecom_churn_dashboard.png" alt="Telecom Churn Dashboard">
+</a>
