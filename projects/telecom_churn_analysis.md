@@ -27,12 +27,12 @@ Key findings include:
 1. About dataset
 2. Data preparation
 3. Exploratory data analysis
-   3.1. Churn reasons
-   3.2. Demographics
-   3.3. Age groups
-   3.4. Plan types
-   3.5. International calls
-   3.6. Contract type and length<br>
+	3.1. Churn reasons
+	3.2. Demographics
+	3.3. Age groups
+	3.4. Plan types
+	3.5. International calls
+	3.6. Contract type and length<br>
 4. Dashboard
 5. Insights & recommendations
 
