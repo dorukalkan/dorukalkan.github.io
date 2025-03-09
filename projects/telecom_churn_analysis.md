@@ -42,18 +42,26 @@ I began exploring the dataset by creating a pivot table that displays the total 
 **Investigating churn reasons**<br>
 As the churn rate at 26,86% is relatively high, the next step is to investigate why this is the case. I've created a pivot table displaying churn reasons and % of churned customers, and a bar chart to visualize them.
 
-<img src="/assets/telecom_churn_analysis_appx/table_churn_reasons.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/table_churn_reasons.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/table_churn_reasons.png" alt="Table of churn reasons">
+</a>
 
 The most popular reason for churn results from competition, and customer service shouldn't be overlooked.
 
-<img src="/assets/telecom_churn_analysis_appx/fig_churn_reasons.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/fig_churn_reasons.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/fig_churn_reasons.png" alt="Figure showing churn reasons">
+</a>
 
 This led me to examine competition-related churn more closely:
 I've created another pivot filtering by churn reason category and a pie chart.
 
-<img src="/assets/telecom_churn_analysis_appx/table_competition_churn.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/table_competition_churn.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/table_competition_churn.png" alt="Table of competition churn">
+</a>
 
-<img src="/assets/telecom_churn_analysis_appx/fig_competition_churn.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/fig_competition_churn.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/fig_competition_churn.png" alt="Figure of competition churn">
+</a>
 
 Results of my initial exploratory analysis naturally raises the question:
 > 💭 Is Databel competitive enough?
@@ -63,18 +71,24 @@ But there are still many columns unexplored before attempting to answer this que
 **Demographics**<br>
 The dataset categorizes individuals by age in three separate columns: Under 30, Senior, and Other. This required me to create a new column to see demographic groups in a single field and add a calculated field to see their churn.
 
-<img src="/assets/telecom_churn_analysis_appx/fig_demographics.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/fig_demographics.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/fig_demographics.png" alt="Demographics Figure">
+</a>
 
 > 🚨 Senior citizens churn the most.
 
 **Age groups**<br>
 I've looked into age dimension more closely to check whether there's a pattern or not. I've used a pivot table grouping ages by bins of 10, then created a clustered column - line chart.
 
-<img src="/assets/telecom_churn_analysis_appx/table_age_groups.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/table_age_groups.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/table_age_groups.png" alt="Table of age groups">
+</a>
 
 Looks like churn rate gets higher as age group gets older, and older customers have the highest churn rate while being the smallest group.
 
-<img src="/assets/telecom_churn_analysis_appx/fig_age_groups.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/fig_age_groups.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/fig_age_groups.png" alt="Figure of age groups">
+</a>
 
 **Plan types**<br>
 I've investigated how plan types influence churn by focusing on limited and unlimited mobile data plans. I had a hypothesis that people who are not on an unlimited data plan would be more likely to churn, but my preliminary exploration revealed the opposite: people on unlimited plan had a churn rate of 32,11% while people who are not had 16,10%.
@@ -91,9 +105,13 @@ To examine if this churn is related to the amount of internet usage, I've create
 	"Between 5 and 10 GB"))
 ```
 
-<img src="/assets/telecom_churn_analysis_appx/table_unlimited_plan.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/table_unlimited_plan.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/table_unlimited_plan.png" alt="Table of unlimited plan">
+</a>
 
-<img src="/assets/telecom_churn_analysis_appx/fig_data_consumption.png"/>
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets//telecom_churn_analysis_appx/fig_data_consumption.png" target="_blank">
+  <img src="/assets/telecom_churn_analysis_appx/fig_data_consumption.png" alt="Data Consumption Figure">
+</a>
 
 > 🚨 Individuals subscribed to unlimited plan who consume less than 5 GB of monthly mobile data are the most likely to churn.
 
@@ -119,7 +137,7 @@ But the more interesting finding has been that:
 
 > Customers between 3-4 year mark are much more likely to churn on a 1-year contract compared to 2-year contract.
 
-### Dashboard
+### 4. Dashboard
 Lastly, I've built a dashboard by bringing together relevant tables and charts, and added key information such as:
 - KPIs: total customers, number of churned customers, churn rate
 - Churn reasons
