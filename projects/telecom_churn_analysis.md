@@ -20,10 +20,9 @@ I've tried to account for these problem statements by creating calculated column
     - 3.3. Age groups
     - 3.4. Plan types
     - 3.5. International calls
-    - 3.6. Contract type and length
+    - 3.6. Contract type and length<br>
 4. Dashboard
 5. Insights & recommendations
-
 
 ### 1. About dataset
 
