@@ -15,12 +15,21 @@ I've addressed these questions by creating calculated fields, building PivotTabl
 
 #### Executive summary
 
-Key findings include: 
-- **High overall churn**: Churn rate is 26.86% among 6,687 customers, indicating that more than one in four customers are canceling their subscriptions. 
-- **Churn drivers:** Competition and subpar customer service are the leading causes.
-- **Demographic insights:** Senior citizens are identified as the most likely group to churn.
-- **Plan & data usage patterns:** Detailed investigation indicates that customers with unlimited plans who consume less than 5 GB of data are at higher risk of churn.
-- **Actionable recommendations:** The dashboard combines these insights into clear visualizations, and the last section guides potential strategies to reduce churn.
+Key findings include:  
+➡️ High overall churn  
+Churn rate is 26.86% among 6,687 customers, indicating that more than one in four customers are canceling their subscriptions.
+
+➡️ Churn drivers  
+Competition and subpar customer service are the leading causes.
+
+➡️ Demographic insights  
+Senior citizens are identified as the most likely group to churn.
+
+➡️ Plan & data usage patterns  
+Detailed investigation indicates that customers with unlimited plans who consume less than 5 GB of data are at higher risk of churn.
+
+➡️ Actionable recommendations  
+The dashboard combines these insights into clear visualizations, and the last section guides potential strategies to reduce churn.
 
 #### Table of contents
 
@@ -167,6 +176,7 @@ Lastly, I've built a dashboard by bringing together relevant tables and charts, 
 - Churn reasons
 - Demographics
 - Data consumption
+- Churn rate by state
 
 <a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/img/telecom_dashboard.png" target="_blank">
   <img src="/assets/img/telecom_dashboard.png" alt="Telecom Churn Dashboard">
@@ -174,4 +184,26 @@ Lastly, I've built a dashboard by bringing together relevant tables and charts, 
 
 ### 5. Insights & recommendations
 
-WIP
+📌 High overall churn  
+The overall churn rate is 26,86%, meaning that more than one in four customers are canceling their subscriptions.  
+_Recommendation:_ Gather customer feedback to further analyze key drivers behind this churn rate.  
+
+📌 Lack of competitive edge  
+Competition and subpar customer service are major factors contributing to high churn rate.  
+_Recommendation:_ Compare the company's offers with competitors' to identify weak points and improve customer service.  
+
+📌 Senior customer churn  
+Senior citizens are particularly prone to canceling their subscriptions.  
+_Recommendation:_ Develop dedicated support channels and tailored offers targeting senior customers.  
+
+📌 Unlimited data plans  
+Customers on unlimited mobile data plans exhibit a churn rate of 32,11%, which is higher than those on limited plans, with low data usage (<5 GB) being the driving factor for this churn.  
+_Recommendation:_ Review the pricing and structure of unlimited data plans to adjust it based on customer needs.  
+
+📌 Contract types  
+Month-to-month and 1-year contracts experience higher churn, with a noticable spike for 1-year contracts around 3-4 year mark.  
+_Recommendation:_ Improve contract renewal strategies with special offers for customers close to critical renewal periods.  
+
+📌 High-churn states  
+Some states such as California, Indiana, and New Hampshire display over 60% churn rate for international plan subscribers.  
+_Recommendation:_ Investigate regional market conditions and provide localized services in high-churn states.
