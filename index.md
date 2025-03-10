@@ -16,7 +16,7 @@
 ---
 
 [Telecom Provider Customer Churn Analysis](projects/telecom_churn_analysis.md)
-<img src="assets/img/telecom_churn_dashboard.png"/>
+<img src="assets/img/telecom_dashboard.png"/>
 
 <p>
   <span class="tag" style="display:inline-block; margin-right:10px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">excel</span>
