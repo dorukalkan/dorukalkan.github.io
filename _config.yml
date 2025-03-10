@@ -3,7 +3,7 @@ favicon: assets/img/favicon.ico
 logo: assets/img/image.png
 
 description: |
-  <p><strong>Technical Skills</strong></p>
+  <p><strong>Skills</strong></p>
   <ul style="list-style: none; margin-left: 0; padding-left: 0;">
     <li>SQL | Postgres, MySQL, SQL Server</li>
     <li>Python | Pandas, NumPy, Matplotlib, Seaborn</li>
