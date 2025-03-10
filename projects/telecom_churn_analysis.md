@@ -4,7 +4,7 @@
 
 #### Project description
 
-This is an Excel project that investigates a dataset from a telecommunications company Databel and analyzes their churn rates. Churn is a significant business metric that is relevant for various industries, including the telecommunications sector which operates with a subscription-based model. Managing customer relations and minimizing churn is an ongoing process for businesses. In this project, churn is analyzed to figure out:
+This is an Excel project that investigates a dataset from an example telecommunications company Databel and analyzes their churn rates. Churn is a significant business metric that is relevant for various industries, including the telecommunications sector which operates with a subscription-based model. Managing customer relations and minimizing churn is an ongoing process for businesses. In this project, churn is analyzed to figure out:
 
 - What is the overall churn rate?
 - Why are customers churning?
