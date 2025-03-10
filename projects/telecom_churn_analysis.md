@@ -11,7 +11,7 @@ This is an Excel project that investigates a dataset from a telecommunications c
 - Which customers are churning?
 - How to reduce churn?
 
-I've addressed these problem statements by creating calculated columns and fields, building PivotTables, and creating a dashboard to communicate insights.
+I've addressed these questions by creating calculated fields, building PivotTables, and creating a dashboard to communicate insights.
 
 #### Executive summary
 
