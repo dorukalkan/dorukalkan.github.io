@@ -14,9 +14,8 @@
 
 ---
 
-[Telecom Provider Customer Churn Analysis](projects/telecom_churn_analysis.md)
-<img src="assets/img/telecom_dashboard.png"/>
-
+<img src="assets/img/telecom_dashboard.png"/><br>
+[Telecom Provider Customer Churn Analysis](projects/telecom_churn_analysis.md)<br>
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">excel</span>
 </p>
@@ -25,10 +24,9 @@
 
 ### Academic Projects
 
+<img src="assets/img/ling412_chart.png"/><br>
 Cross-Linguistic Analysis of Phonological Markedness and Phoneme Inventories<br>
-_Undergraduate Thesis in Linguistics_
-<img src="assets/img/ling412_chart.png"/>
-
+_Undergraduate Thesis in Linguistics_<br>
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">python</span>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">pandas</span>
@@ -40,10 +38,9 @@ _Undergraduate Thesis in Linguistics_
 
 ---
 
+<img src="assets/img/pharma_sales_kaggle.png"/><br>
 Multiple Linear Regression Analysis on Pharmaceutical Drug Sales<br>
-_Term Project in Information Systems_
-<img src="assets/img/pharma_sales_kaggle.png"/>
-
+_Term Project in Information Systems_<br>
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">r</span>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">excel</span>
@@ -51,10 +48,9 @@ _Term Project in Information Systems_
 
 ---
 
+<img src="assets/img/fst_example.png"/><br>
 [Morphological Parser for Turkish Using Finite State NLP](https://github.com/eklerproject/ekler)<br>
-_Term Project in Computational Linguistics (Collaborative)_  
-<img src="assets/img/fst_example.png"/>
-
+_Term Project in Computational Linguistics (Collaborative)_<br>  
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">python</span>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">hfst</span>
