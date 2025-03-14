@@ -16,7 +16,7 @@ I've addressed these questions by creating calculated fields, building PivotTabl
 #### Executive summary  
 Key findings include:  
 ➡️ High overall churn  
-Churn rate is 26.86% among 6,687 customers, indicating that more than one in four customers are canceling their subscriptions.  
+Churn rate is 26,86% among 6,687 customers, indicating that more than one in four customers are canceling their subscriptions.  
 
 ➡️ Churn drivers  
 Competition and subpar customer service are the leading causes.  
