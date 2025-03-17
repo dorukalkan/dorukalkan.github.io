@@ -5,7 +5,7 @@
 ### Data Analytics Projects
 
 <img src="assets/img/hotel_rev_dashboard.png"/><br>
-[Hotel Revenue Analysis](projects/hotel_rev_dashboard.md)<br>
+[Hotel Revenue Analysis](projects/hotel_rev_analysis.md)<br>
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">sql</span>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">mysql</span>
