@@ -2,7 +2,7 @@
 
 ---
 
-### Data Analytics Projects
+### Data Science & Analytics Projects
 
 <img src="assets/img/hotel_rev_dashboard.png"/><br>
 [Hotel Revenue Analysis](projects/hotel_revenue_analysis.md)<br>
@@ -18,6 +18,21 @@
 [Telecom Provider Customer Churn Analysis](projects/telecom_churn_analysis.md)<br>
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">excel</span>
+</p>
+
+---
+
+### Data Engineering Projects
+
+<img src="assets/img/pgdatahub_thumbnail.png"/><br>
+[Multi-Format PostgreSQL ETL Automation](https://github.com/dorukalkan/pgdatahub)<br>
+<p>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">python</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">postgresql</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">pandas</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">psycopg2</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">excel</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">json</span>
 </p>
 
 ---
