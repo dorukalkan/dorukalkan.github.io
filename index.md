@@ -1,11 +1,11 @@
-## Portfolio
+## Portfolio 
 
 ---
 
 ### Data Science & Analytics Projects
 
 <img src="assets/img/hotel_rev_dashboard.png"/><br>
-[Hotel Revenue Analysis](projects/hotel_revenue_analysis.md)<br>
+<a href="projects/hotel_revenue_analysis.md" target="_blank" rel="noopener">Hotel Revenue Analysis</a><br>
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">sql</span>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">mysql</span>
@@ -15,7 +15,7 @@
 ---
 
 <img src="assets/img/telecom_dashboard.png"/><br>
-[Telecom Provider Customer Churn Analysis](projects/telecom_churn_analysis.md)<br>
+<a href="projects/telecom_churn_analysis.md" target="_blank" rel="noopener">Telecom Provider Customer Churn Analysis</a><br>
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">excel</span>
 </p>
@@ -25,7 +25,7 @@
 ### Data Engineering Projects
 
 <img src="assets/img/pgdatahub_thumbnail.png"/><br>
-[Multi-Format PostgreSQL ETL Automation](https://github.com/dorukalkan/pgdatahub)<br>
+<a href="https://github.com/dorukalkan/pgdatahub" target="_blank" rel="noopener">Multi-Format PostgreSQL ETL Automation</a><br>
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">python</span>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">postgresql</span>
@@ -64,7 +64,7 @@ _Term Project in Information Systems_<br>
 ---
 
 <img src="assets/img/fst_example.png"/><br>
-[Morphological Parser for Turkish Using Finite State NLP](https://github.com/eklerproject/ekler)<br>
+<a href="https://github.com/eklerproject/ekler" target="_blank" rel="noopener">Morphological Parser for Turkish Using Finite State NLP</a><br>
 _Term Project in Computational Linguistics (Collaborative)_<br>  
 <p>
   <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">python</span>
