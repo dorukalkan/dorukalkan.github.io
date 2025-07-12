@@ -13,7 +13,7 @@ This is an exploratory data analysis and data visualization project on a hotel d
 SQL script and interactive dashboard (.pbix) files can be accessed [here](https://github.com/dorukalkan/dorukalkan.github.io/tree/main/assets/hotel_rev_analysis_appx).
 
 #### Executive summary
-Key findings include:
+Key findings include:  
 ➡️ There is a drastic drop in revenue in 2020, possibly due to COVID-19 pandemic. Further analysis is needed to see if this is really the case.
 
 ➡️ Current parking lot size is enough and there is no need for improvements.
@@ -83,20 +83,20 @@ GROUP BY arrival_date_year, hotel;
 
 I created an interactive dashboard utilizing the previous queries to visualize key performance metrics such as total revenue, ADR, total hotel stays, required parking spaces. I added charts with trendlines, date sliders, and a revenue table as a quick and easy way to get a sense of various KPIs.
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/hotel_rev_analysis_appx/hotel_rev_dashboard.png" target="_blank">
+<a href="https://github.com/dorukalkan/dorukalkan.github.io/blob/d45232ae1867a4c3087fa352517cb71854112760/assets/hotel_rev_analysis_appx/hotel_rev_dashboard.png" target="_blank">
   <img src="assets/hotel_rev_analysis_appx/hotel_rev_dashboard.png" alt="Final interactive Power BI dashboard">
 </a>
 
 ### 5. Insights & recommendations
 
-📌 Hotel revenue peaked in 2019 for both hotel types.
-2018 has the lowest revenue. The dataset is not complete for 2020 (doesn’t contain the last quarter), but when compared only by the first three quarters, 2020 falls short of 2019. 2019 has $3,91M in revenue for the first three quarters while 2020 has $3,51M. There is a drop in overall hotel stays in parallel. The drop is most pronounced in the summer months, and might be a product of the COVID-19 pandemic. By mid-2020 COVID-19 was already widespread and global lockdowns were in place, which can account for the performance drop in 2020 summer season.
+📌 Hotel revenue peaked in 2019 for both hotel types.  
+2018 has the lowest revenue. The dataset is not complete for 2020 (doesn’t contain the last quarter), but when compared only by the first three quarters, 2020 falls short of 2019. 2019 has $3,91M in revenue for the first three quarters while 2020 has $3,51M. There is a drop in overall hotel stays in parallel. The drop is most pronounced in the summer months, and might be a product of the COVID-19 pandemic. By mid-2020 COVID-19 was already widespread and global lockdowns were in place, which can account for the performance drop in 2020 summer season.  
 _Recommendation:_ 2020 revenue dip should be more closely examined to understand if it really is an effect of the pandemic, or whether any other factor has influence on it.
 
-📌 Required parking space consists only a small percentage.
-The dataset shows that there is a slight increase in overall required parking space, but it actually consists a very small percentage. Neither hotel type exhibits a drastic demand for parking space.
+📌 Required parking space consists only a small percentage.  
+The dataset shows that there is a slight increase in overall required parking space, but it actually consists a very small percentage. Neither hotel type exhibits a drastic demand for parking space.  
 _Recommendation:_ There is no need to increase the parking lot size.
 
-📌 Seasonality and holiday season effects can be seen for both hotel types.
-Hotel stays and overall revenue increase by large during the summer months for resort hotels. There is another spike in the holiday season, with city hotels seeing a larger demand than resorts.
+📌 Seasonality and holiday season effects can be seen for both hotel types.  
+Hotel stays and overall revenue increase by large during the summer months for resort hotels. There is another spike in the holiday season, with city hotels seeing a larger demand than resorts.  
 _Recommendation:_ Tailored marketing campaigns can be conducted for resort hotels during summer and city hotels during holiday season to maximize revenue in these peak periods.
