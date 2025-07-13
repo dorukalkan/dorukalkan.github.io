@@ -16,7 +16,7 @@ SQL script and interactive dashboard (.pbix) files can be accessed [here](https:
 Key findings include:  
 ➡️ There is a drastic drop in revenue in 2020, possibly due to COVID-19 pandemic. Further analysis is needed to see if this is really the case.
 
-➡️ Current parking lot size is enough and there is no need for improvements.
+➡️ Current parking lot size is sufficient and there is no need for improvements.
 
 ➡️ Revenue spikes in the summer for resort hotels and in holiday season for city hotels. This trend can be capitalized on more with additional tailored marketing campaigns.
 
@@ -36,7 +36,7 @@ Dataset is taken from [AbsentData](https://absentdata.com) and contains informat
 
 ### 2. Data preparation
 
-I started by creating a database in MySQL and importing the CSV files. Since the dataset consisted multiple files, I used the following query to create a CTE and combine them:
+I started by creating a database in MySQL and importing the CSV files. Since the dataset consisted of multiple files, I used the following query to create a CTE and combine them:
 
 ````SQL
 USE `hotel_db`; 
@@ -51,7 +51,7 @@ SELECT * FROM hotel_db.rev_2020)
 
 ### 3. Exploratory data analysis
 
-There were no separate column displaying revenue in the dataset, so I had to calculate an estimate by taking the sum of weekday and weekend stays, then multiplying it by average daily rate.
+There was no separate column displaying revenue in the dataset, so I had to calculate an estimate by taking the sum of weekday and weekend stays, then multiplying it by average daily rate.
 
 ````SQL
 SELECT arrival_date_year AS arrival_date, 
@@ -60,7 +60,7 @@ FROM revenues
 GROUP BY arrival_date_year;
 ````
 
-I did a similar calculation to calculate the revenues by hotel type: city hotels and resort hotels, which would later be useful for comparing their performance.
+I did a similar calculation to get the revenues by hotel type: city hotels and resort hotels, which would later be useful for comparing their performance.
 
 ````SQL
 SELECT arrival_date_year AS arrival_date, hotel AS hotel_type, ROUND(SUM((stays_in_week_nights + stays_in_weekend_nights) * adr)) AS revenue 
@@ -93,8 +93,8 @@ I created an interactive dashboard utilizing the previous queries to visualize k
 2018 has the lowest revenue. The dataset is not complete for 2020 (doesn’t contain the last quarter), but when compared only by the first three quarters, 2020 falls short of 2019. 2019 has $3,91M in revenue for the first three quarters while 2020 has $3,51M. There is a drop in overall hotel stays in parallel. The drop is most pronounced in the summer months, and might be a product of the COVID-19 pandemic. By mid-2020 COVID-19 was already widespread and global lockdowns were in place, which can account for the performance drop in 2020 summer season.  
 _Recommendation:_ 2020 revenue dip should be more closely examined to understand if it really is an effect of the pandemic, or whether any other factor has influence on it.
 
-📌 Required parking space consists only a small percentage.  
-The dataset shows that there is a slight increase in overall required parking space, but it actually consists a very small percentage. Neither hotel type exhibits a drastic demand for parking space.  
+📌 Required parking space consists of only a small percentage.  
+The dataset shows that there is a slight increase in overall required parking space, but it actually forms a very small percentage. Neither hotel type exhibits a drastic demand for parking space.  
 _Recommendation:_ There is no need to increase the parking lot size.
 
 📌 Seasonality and holiday season effects can be seen for both hotel types.  
