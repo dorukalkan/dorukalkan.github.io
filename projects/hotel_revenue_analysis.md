@@ -14,13 +14,15 @@ SQL script and interactive dashboard (.pbix) files can be accessed [here](https:
 
 #### Executive summary
 Key findings include:  
-➡️ There is a drastic drop in revenue in 2020, possibly due to COVID-19 pandemic. Further analysis is needed to see if this is really the case.
+➡️ There is a drastic drop in revenue in 2020, possibly due to COVID-19 pandemic. Further analysis is advised to see if this is really the case.
 
 ➡️ Current parking lot size is sufficient and there is no need for improvements.
 
-➡️ Revenue spikes in the summer for resort hotels and in holiday season for city hotels. This trend can be capitalized on more with additional tailored marketing campaigns.
+➡️ Revenue spikes in the summer for resort hotels and in holiday season for city hotels. This trend can be capitalized on with additional tailored marketing campaigns.
 
-Find the comprehensive insights and recommendations section at the end of this page.
+➡️ Overall ADR has seen a steady increase. More granular data required (including KPIs such as occupancy rate and revenue per room) to check if it reflects real business growth.
+
+Comprehensive insights and recommendations section can be found at the end of this page.
 
 #### Table of contents
 
@@ -90,13 +92,17 @@ I created an interactive dashboard utilizing the previous queries to visualize k
 ### 5. Insights & recommendations
 
 📌 Hotel revenue peaked in 2019 for both hotel types.  
-2018 has the lowest revenue. The dataset is not complete for 2020 (doesn’t contain the last quarter), but when compared only by the first three quarters, 2020 falls short of 2019. 2019 has $3,91M in revenue for the first three quarters while 2020 has $3,51M. There is a drop in overall hotel stays in parallel. The drop is most pronounced in the summer months, and might be a product of the COVID-19 pandemic. By mid-2020 COVID-19 was already widespread and global lockdowns were in place, which can account for the performance drop in 2020 summer season.  
-_Recommendation:_ 2020 revenue dip should be more closely examined to understand if it really is an effect of the pandemic, or whether any other factor has influence on it.
+2018 has the lowest revenue. The dataset is not complete for 2020 (doesn’t contain the last quarter), but when compared only by the first three quarters, 2020 falls short of 2019. 2019 has $3.91M in revenue for the first three quarters while 2020 has $3.51M. There is a drop in overall hotel stays in parallel. The drop is most pronounced in the summer months, and might be an impact of the COVID-19 pandemic. By mid-2020 COVID-19 was already widespread and global lockdowns were in place, which can account for the performance drop in 2020 summer season.
+**_Recommendation:_ 2020 revenue dip should be more closely examined to understand if it really is an effect of the pandemic, or whether any other factor has influence on it.**
 
 📌 Required parking space consists of only a small percentage.  
 The dataset shows that there is a slight increase in overall required parking space, but it actually forms a very small percentage. Neither hotel type exhibits a drastic demand for parking space.  
-_Recommendation:_ There is no need to increase the parking lot size.
+**_Recommendation:_ Consider canceling planned parking lot expansion.**
 
 📌 Seasonality and holiday season effects can be seen for both hotel types.  
 Hotel stays and overall revenue increase by large during the summer months for resort hotels. There is another spike in the holiday season, with city hotels seeing a larger demand than resorts.  
-_Recommendation:_ Tailored marketing campaigns can be conducted for resort hotels during summer and city hotels during holiday season to maximize revenue in these peak periods.
+**_Recommendation:_ Tailored marketing campaigns can be conducted for resort hotels during summers, and for city hotels during holiday seasons to maximize revenue in these peak periods.**
+
+📌 There is a steady increase in average daily rate.
+Average daily rate, which is a significant indicator of pricing power in the hotel industry, can be influenced by other factors and its rise might not be a result of genuine improvement in the business. Increasing ADR is a positive indicator as long as occupancy rate and revenue per room are also stable and/or increasing. For example, it is possible that ADR has increased while occupancy rate fallen, which would have decreased the revenue per room.
+**_Recommendation:_ ** Conduct further analysis by incorporating additional KPIs and using more granular data to gain insight into the increase in average daily rate.
