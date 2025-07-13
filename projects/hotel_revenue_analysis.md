@@ -103,6 +103,6 @@ _Recommendation:_ Consider canceling planned parking lot expansion.
 Hotel stays and overall revenue increase by large during the summer months for resort hotels. There is another spike in the holiday season, with city hotels seeing a larger demand than resorts.  
 _Recommendation:_ Tailored marketing campaigns can be conducted for resort hotels during summers, and for city hotels during holiday seasons to maximize revenue in these peak periods.
 
-📌 There is a steady increase in average daily rate.
+📌 There is a steady increase in average daily rate.  
 Average daily rate, which is a significant indicator of pricing power in the hotel industry, can be influenced by other factors and its rise might not be a result of genuine improvement in the business. Increasing ADR is a positive indicator as long as occupancy rate and revenue per room are also stable and/or increasing. For example, it is possible that ADR has increased while occupancy rate fallen, which would have decreased the revenue per room.  
 _Recommendation:_ Conduct further analysis by incorporating additional KPIs and using more granular data to gain insight into the increase in average daily rate.
