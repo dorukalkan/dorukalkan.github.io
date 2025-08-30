@@ -4,6 +4,19 @@
 
 ### Data Science & Analytics Projects
 
+<img src="assets/img/plots_grid.png"/><br>
+[Cookie Cats Retention A/B Test](https://github.com/dorukalkan/cookie-cats-ab-test)<br>
+<p>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">python</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">pandas</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">statsmodels</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">scipy</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">matplotlib</span>
+  <span class="tag" style="display:inline-block; margin-right:5px; background-color: rgba(38, 124, 185, 0.2); color: rgb(38, 124, 185); padding: 3px 8px; border-radius: 9999px; font-size: 0.9em;">seaborn</span>
+</p>
+
+---
+
 <img src="assets/img/hotel_rev_dashboard.png"/><br>
 [Hotel Revenue Analysis](projects/hotel_revenue_analysis.md)<br>
 <p>
