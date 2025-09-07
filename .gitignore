@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Node modules
+node_modules/
+
+# Jekyll build output
+_site/
+.jekyll-metadata
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Bundler config
+.bundle/
+vendor/
+
+# Ruby environment
+.ruby-version
+.ruby-gemset
+
+# Byebug command history
+.byebug_history
