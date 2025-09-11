@@ -40,7 +40,7 @@
     {
       "title": "Hotel Revenue Analysis",
       "summary": "Exploratory data analysis on hotel bookings and parking usage to discover trends, seasonality, and assess the revenue performance of different hotel types. Developed an interactive Power BI dashboard to visualize key insights.",
-      "url": "https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/hotel_revenue_analysis.md",
+      "url": "https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/hotel_rev_analysis_appx/hotel_revenue_analysis.md",
       "highlights": "",
       "images": {
         "img_path": "assets/hotel_rev_dashboard.png",
@@ -50,7 +50,7 @@
       {
       "title": "Telecom Provider Customer Churn Analysis",
       "summary": "Exploratory data analysis on a telecom provider's customer data to identify factors contributing to customer churn and provide insights for improving subscription strategies. Created an Excel dashboard to visualize key metrics and trends.",
-      "url": "https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis.md",
+      "url": "https://github.com/dorukalkan/dorukalkan.github.io/blob/main/projects/telecom_churn_analysis_appx/telecom_churn_analysis.md",
       "highlights": "",
       "images": {
         "img_path": "assets/telecom_dashboard.png",

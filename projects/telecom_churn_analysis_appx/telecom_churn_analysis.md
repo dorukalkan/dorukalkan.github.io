@@ -70,25 +70,25 @@ I began exploring the dataset by creating a pivot table that displays the total 
 
 As the churn rate at 26,86% is relatively high, the next step is to investigate why this is the case. I've created a pivot table displaying churn reasons and % of churned customers, and a bar chart to visualize them.
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/table_churn_reasons.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/table_churn_reasons.png" alt="Table of churn reasons">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/table_churn_reasons.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/table_churn_reasons.png" alt="Table of churn reasons">
 </a>
 
 The most popular reason for churn results from competition, and customer service shouldn't be overlooked.
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/fig_churn_reasons.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/fig_churn_reasons.png" alt="Figure showing churn reasons">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/fig_churn_reasons.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/fig_churn_reasons.png" alt="Figure showing churn reasons">
 </a>
 
 This led me to examine competition-related churn more closely:
 I've created another pivot filtering by churn reason category and a pie chart.
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/table_competition_churn.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/table_competition_churn.png" alt="Table of competition churn">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/table_competition_churn.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/table_competition_churn.png" alt="Table of competition churn">
 </a>
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/fig_competition_churn.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/fig_competition_churn.png" alt="Figure of competition churn">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/fig_competition_churn.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/fig_competition_churn.png" alt="Figure of competition churn">
 </a>
 
 Results of my initial exploratory analysis naturally raised the question:
@@ -101,8 +101,8 @@ But there are still many columns unexplored before attempting to answer this que
 
 The dataset categorizes individuals by age in three separate columns: Under 30, Senior, and Other. This required me to create a new column to see demographic groups in a single field and add a calculated field to see their churn.
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/fig_demographics.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/fig_demographics.png" alt="Demographics Figure">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/fig_demographics.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/fig_demographics.png" alt="Demographics Figure">
 </a>
 
 > 🚨 Senior citizens churn the most.
@@ -111,14 +111,14 @@ The dataset categorizes individuals by age in three separate columns: Under 30, 
 
 I've looked into age dimension more closely to check whether there's a pattern or not. I've used a pivot table grouping ages by bins of 10, then created a clustered column - line chart.
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/table_age_groups.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/table_age_groups.png" alt="Table of age groups">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/table_age_groups.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/table_age_groups.png" alt="Table of age groups">
 </a>
 
 Looks like churn rate gets higher as age group gets older, and older customers have the highest churn rate while being the smallest group.
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/fig_age_groups.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/fig_age_groups.png" alt="Figure of age groups">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/fig_age_groups.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/fig_age_groups.png" alt="Figure of age groups">
 </a>
 
 #### 3.4. Plan types
@@ -137,12 +137,12 @@ To examine if this churn is related to the amount of internet usage, I've create
 	"Between 5 and 10 GB"))
 ```
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/table_unlimited_plan.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/table_unlimited_plan.png" alt="Table of unlimited plan">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/table_unlimited_plan.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/table_unlimited_plan.png" alt="Table of unlimited plan">
 </a>
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets//telecom_churn_analysis_appx/fig_data_consumption.png" target="_blank">
-  <img src="/assets/telecom_churn_analysis_appx/fig_data_consumption.png" alt="Data Consumption Figure">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects//telecom_churn_analysis_appx/fig_data_consumption.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/fig_data_consumption.png" alt="Data Consumption Figure">
 </a>
 
 > 🚨 Individuals subscribed to unlimited plan who consume less than 5 GB of monthly mobile data are the most likely to churn.
@@ -179,8 +179,8 @@ Lastly, I've built a dashboard by bringing together relevant tables and charts, 
 - Data consumption
 - Churn rate by state
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/img/telecom_dashboard.png" target="_blank">
-  <img src="/assets/img/telecom_dashboard.png" alt="Telecom Churn Dashboard">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/img/telecom_dashboard.png" target="_blank">
+  <img src="/projects/img/telecom_dashboard.png" alt="Telecom Churn Dashboard">
 </a>
 
 ### 5. Insights & recommendations

@@ -10,7 +10,7 @@ This is an exploratory data analysis and data visualization project on a hotel d
 - Should the company increase its parking lot size? Is there any trends in guests with personal cars?
 - What other trends can be seen in the data? Is there seasonality?
 
-SQL script and interactive dashboard (.pbix) files can be accessed [here](https://github.com/dorukalkan/dorukalkan.github.io/tree/main/assets/hotel_rev_analysis_appx).
+SQL script and interactive dashboard (.pbix) files can be accessed [here](https://github.com/dorukalkan/dorukalkan.github.io/tree/main/projects/hotel_rev_analysis_appx).
 
 #### Executive summary
 Key findings include:  
@@ -86,7 +86,7 @@ GROUP BY arrival_date_year, hotel;
 I created an interactive dashboard utilizing the previous queries to visualize key performance metrics such as total revenue, ADR, total hotel stays, required parking spaces. I added charts with trendlines, date sliders, and a revenue table as a quick and easy way to get a sense of various KPIs.
 
 <a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/hotel_rev_analysis_appx/hotel_rev_dashboard.png" target="_blank">
-  <img src="/assets/hotel_rev_analysis_appx/hotel_rev_dashboard.png" alt="Final interactive Power BI dashboard">
+  <img src="/projects/hotel_rev_analysis_appx/hotel_rev_dashboard.png" alt="Final interactive Power BI dashboard">
 </a>
 
 ### 5. Insights & recommendations
