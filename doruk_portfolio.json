@@ -1,0 +1,141 @@
+{
+  "name": "Doruk Alkan",
+  "label": "",
+  "image_path": "assets/pfp.jpeg",
+  "contact": {
+    "email": "",
+    "phone": "",
+    "location": "Istanbul, Turkey"
+  },
+  "summary": "Aspiring Data Analyst with a passion for coding and diving into every aspect of data. Interested in the data lifecycle from building pipelines to analytics.",
+  "url": "",
+  "social_links": [
+    {
+      "label": "dorukalkan1.0@gmail.com",
+      "url": "dorukalkan1.0@gmail.com",
+      "svg_path": "img/gmail.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/doruk-alkan/",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/dorukalkan",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Cookie Cats A/B Test Analysis",
+      "summary": "A/B test on a mobile puzzle game Cookie Cats to decide whether to implement a change in the game's level placement. Conducted exploratory data analysis, sanity checks, and statistical testing using Python to evaluate the impact of the change on retention and engagement metrics.",
+      "url": "https://github.com/dorukalkan/cookie-cats-ab-test",
+      "highlights": "",
+      "images": {
+        "img_path": "assets/plots_grid.png",
+        "caption": "Visualizations from the analysis"
+      }
+    },
+    {
+      "title": "Hotel Revenue Analysis",
+      "summary": "Exploratory data analysis on hotel bookings and parking usage to discover trends, seasonality, and assess the revenue performance of different hotel types. Developed an interactive Power BI dashboard to visualize key insights.",
+      "url": "projects/hotel_rev_analysis_appx/hotel_revenue_analysis.md",
+      "highlights": "",
+      "images": {
+        "img_path": "assets/hotel_rev_dashboard.png",
+        "caption": "Power BI dashboard"
+      }
+    },
+      {
+      "title": "Telecom Provider Customer Churn Analysis",
+      "summary": "Exploratory data analysis on a telecom provider's customer data to identify factors contributing to customer churn and provide insights for improving subscription strategies. Created an Excel dashboard to visualize key metrics and trends.",
+      "url": "projects/telecom_churn_analysis_appx/telecom_churn_analysis.md",
+      "highlights": "",
+      "images": {
+        "img_path": "assets/telecom_dashboard.png",
+        "caption": "Excel dashboard"
+      }
+    },
+    {
+      "title": "Multi-Format PostgreSQL ETL Automation",
+      "summary": "Automated ETL pipeline to extract data from various formats (JSON, CSV, Excel) and load into PostgreSQL using Python.",
+      "url": "https://github.com/dorukalkan/pgdatahub",
+      "highlights": "",
+      "images": {
+        "img_path": "assets/pgdatahub_thumbnail.png",
+        "caption": "ETL pipeline overview"
+      }
+    },
+    {
+      "title": "Morphological Parser for Turkish Using Finite State NLP",
+      "summary": "Worked as part of a team to develop a morphological parser for Turkish using finite state transducers that analyzes and generates word forms.",
+      "url": "https://github.com/eklerproject/ekler",
+      "highlights": "",
+      "images": {
+        "img_path": "assets/fst_example.png",
+        "caption": "Example finite state automata"
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Boğaziçi University",
+      "location": "Istanbul, Turkey",
+      "url": "https://bogazici.edu.tr",
+      "degrees": "B.A., Linguistics"
+    }
+  ],
+  "skills": [],
+  "skills_categories": [
+    {
+      "name": "Languages",
+      "chips": [
+        { "label": "Python" },
+        { "label": "SQL" },
+        { "label": "R" }
+      ]
+    },
+    {
+      "name": "Python Ecosystem",
+      "chips": [
+        { "label": "pandas" },
+        { "label": "NumPy" },
+        { "label": "SciPy" },
+        { "label": "statsmodels" }
+      ]
+    },
+    {
+      "name": "Databases",
+      "chips": [
+        { "label": "PostgreSQL" },
+        { "label": "MySQL" },
+        { "label": "SQL Server" },
+        { "label": "SQLite" }
+      ]
+    },
+    {
+      "name": "Big Data & Cloud",
+      "chips": [
+        { "label": "Airflow" },
+        { "label": "dbt" },
+        { "label": "BigQuery" },
+        { "label": "Docker" }
+      ]
+    },
+    {
+      "name": "BI & Visualization",
+      "chips": [
+        { "label": "Power BI" },
+        { "label": "Tableau" },
+        { "label": "matplotlib" },
+        { "label": "seaborn" },
+        { "label": "plotly" },
+        { "label": "Excel" }
+      ]
+    }
+  ],
+  "interests": [],
+  "languages": [],
+  "references": []
+}

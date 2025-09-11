@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap');
+
+:root {
+  --spacing-inline: 0.5rem;
+  /* Component radii */
+  --radius-card: 4px;
+  --radius-media: 4px;
+  /* Layout gutters */
+  --layout-gutter-inline: 1.5rem;
+  --layout-gutter-inline-mobile: 0.9rem;
+  /* Column padding */
+  --column-pad-x: 1.25rem;
+  --column-pad-x-mobile: 0.75rem;
+  /* Card padding */
+  --card-pad-x: 1.25rem;
+  --card-pad-y: 1rem;
+
+  /* Light theme — Black & White identity (cards darker than bg) */
+  --color-bg: #ffffff;            /* page */
+  --color-bg-alt: #fcfcfc;        /* subtle sections */
+  --color-surface: #f5f5f5;       /* cards (darker than bg) */
+  --color-surface-alt: #f0f0f0;   /* alt card */
+  --color-surface-tint: #ebebeb;  /* hover / tint */
+  --color-border: #bdbdbd;        /* distinct card frame */
+  --color-divider: #e0e0e0;       /* light separators */
+  --color-text: #0f0f0f;          /* near-black */
+  --color-text-muted: #565656;    /* muted */
+  --color-text-faint: #8a8a8a;    /* faint */
+
+  /* Link blue — dark, bold, readable */
+  --color-link: #0b3d91;          /* base */
+  --color-link-hover: #083478;    /* hover */
+  --color-link-active: #062a60;   /* active */
+  --color-accent: var(--color-link);
+  --color-accent-hover: var(--color-link-hover);
+  --color-accent-active: var(--color-link-active);
+  --color-accent-bg: #f1f1f1;     /* neutral accent background */
+  --color-focus-ring: #0b3d91;    /* accessible focus */
+
+  /* Neutral highlights (keep monochrome identity) */
+  --color-highlight: #2e2e2e;         /* accent lines, badges, etc. */
+  --color-highlight-strong: #1a1a1a;
+
+  /* Status colors (kept subtle; rarely used) */
+  --color-success: #14532d; /* dark desaturated green for readability if used */
+  --color-warning: #92400e; /* dark amber */
+  --color-danger: #7f1d1d;  /* deep red */
+  --color-info: #1e3a8a;    /* deep blue */
+
+  /* Chips */
+  --color-chip-bg: #f3f3f3;
+  --color-chip-border: #c9c9c9;
+  --color-chip-text: #444444;
+  --color-chip-hover-bg: #e9e9e9;
+  --color-chip-hover-border: #b4b4b4;
+  --color-chip-active-bg: #dfdfdf;
+  --color-chip-active-border: #a8a8a8;
+
+  --color-selection-bg: #e5e7eb;
+  --color-code-bg: #f6f6f6;
+  --color-scrollbar: #bfbfbf;
+
+  --shadow-sm: 0 1px 2px rgba(15,23,42,0.05);
+  --shadow-md: 0 2px 4px rgba(15,23,42,0.08);
+  --shadow-focus: 0 0 0 3px rgba(11,61,145,0.35);
+
+  /* Aliases */
+  --header-footer-bg-color: var(--color-bg-alt);
+  --aside-accent-color: var(--color-highlight);
+  --blockquote-bg-color: #f7f7f7;
+  --blockquote-accent-color: #9a9a9a;
+  --blockquote-text-color: var(--color-text-muted);
+}
+
+.theme-dark {
+  /* Dark theme — Black & White identity (cards darker than bg) */
+  --color-bg: #1c1c1c;        /* page (lighter for clearer card contrast) */
+  --color-bg-alt: #202020;    /* alt background */
+  --color-surface: #0f0f0f;   /* cards (darker than bg) */
+  --color-surface-alt: #0d0d0d; /* alt card */
+  --color-surface-tint: #181818; /* hover / tint */
+  --color-border: #2a2a2a;    /* distinct against surface */
+  --color-divider: #262626;   /* separators */
+  --color-text: #f0f0f0;      /* near-white */
+  --color-text-muted: #b5b5b5;
+  --color-text-faint: #8e8e8e;
+
+  /* Link blue — brighter for dark surfaces while staying bold */
+  --color-link: #7aa2ff;
+  --color-link-hover: #9ab8ff;
+  --color-link-active: #598fff;
+  --color-accent: var(--color-link);
+  --color-accent-hover: var(--color-link-hover);
+  --color-accent-active: var(--color-link-active);
+  --color-accent-bg: #1b1b1b; /* neutral accent background */
+  --color-focus-ring: #7aa2ff;
+
+  --color-highlight: #bdbdbd;        /* light gray accent on dark */
+  --color-highlight-strong: #e0e0e0;
+
+  --color-success: #65a30d;  /* readable on dark if used */
+  --color-warning: #d97706;
+  --color-danger: #ef4444;
+  --color-info: #60a5fa;
+
+  --color-chip-bg: #1d1d1d;
+  --color-chip-border: #333333;
+  --color-chip-text: #d0d0d0;
+  --color-chip-hover-bg: #2a2a2a;
+  --color-chip-hover-border: #444444;
+  --color-chip-active-bg: #343434;
+  --color-chip-active-border: #5a5a5a;
+
+  --color-selection-bg: #2a2a2a;
+  --color-code-bg: #0f0f0f;
+  --color-scrollbar: #3a3a3a;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.6);
+  --shadow-md: 0 2px 6px rgba(0,0,0,0.6);
+  --shadow-focus: 0 0 0 3px rgba(122,162,255,0.45);
+}
+
+/* Base Styles */
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body { scrollbar-color: var(--color-scrollbar) transparent; }
+
+::selection { background: var(--color-selection-bg); }
+
+:focus-visible { outline: 2px solid var(--color-focus-ring); outline-offset: 3px; }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+code, pre { background: var(--color-code-bg); font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+
+pre { padding: .75rem 1rem; border-radius: 6px; overflow-x: auto; }
+
+/* Smooth theme transition (opt-in lightweight) */
+body, a, .skill-chip, header, footer, aside, .page-header, .page-footer, .section-heading::before, .section-heading::after, .header-image, .card {
+  transition: background-color .35s ease, color .35s ease, border-color .35s ease, box-shadow .35s ease, transform .35s ease, border-radius .4s ease;
+}
+/* Card system */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: var(--card-pad-y) var(--card-pad-x);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+.card + .card { margin-top: 1.5rem; }
+.project-card + .project-card { margin-top: 1rem; }
+.project-card h3 { margin-top: 0; }
+/* After making gallery bleed to edges, keep a compact top spacing for balance */
+/* top margin is also set in the unified rule below to avoid overrides */
+.sidebar-card + .sidebar-card { margin-top: 1.25rem; }
+.card section { margin-bottom: 1rem; }
+.card section:last-child { margin-bottom: 0; }
+.card ul { margin-top: 0.5rem; }
+.card img { border-radius: var(--radius-media); }
+
+/* Standalone section title cards (e.g., Projects heading) */
+.section-title-card {
+  padding: .75rem .95rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-title-card .section-heading { margin: 0; }
+
+/* Subtle elevation hover for project cards (only on devices that support hover) */
+@media (hover: hover) and (pointer: fine) {
+  .project-card:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    transform: translateY(-3px);
+  }
+  .project-card:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card, .project-card:hover, .project-card:active { transition: none; transform: none !important; }
+}
+
+/* Adjust page padding (header uses inner .header-card) */
+main, aside { padding: 1.25rem var(--column-pad-x); }
+@media (max-width: 600px) {
+  main, aside { padding: 0.7rem var(--column-pad-x-mobile); }
+}
+/* Theme Toggle (top-right placement) */
+#theme-toggle {
+  position: absolute;
+  top: .75rem;
+  right: .75rem;
+  background: var(--color-surface-alt);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  padding: .4rem .85rem;
+  font-size: .85rem;
+  border-radius: 999px; /* pill */
+  cursor: pointer;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-weight: 500;
+  z-index: 10;
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: saturate(180%) blur(4px);
+}
+#theme-toggle:hover { background: var(--color-surface-tint); }
+#theme-toggle:active { background: var(--color-surface-alt); transform: translateY(1px); }
+#theme-toggle:focus-visible { box-shadow: var(--shadow-focus); outline: none; }
+#theme-toggle .theme-icon { font-size: 1rem; }
+/* Skill Chips */
+.skill-category { margin-bottom: 1.25rem; }
+.skill-category-title { font-size: 0.9rem; font-weight: 600; letter-spacing: .5px; margin: 0 0 .4rem; text-transform: uppercase; opacity: .85; }
+.skill-chips { list-style: none; display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 .5rem; padding: 0; }
+.skill-chip { background: var(--color-chip-bg); border: 1px solid var(--color-chip-border); color: var(--color-chip-text); padding: .25rem .6rem; border-radius: var(--radius-card); font-size: .7rem; font-weight: 500; letter-spacing: .3px; line-height: 1.1; }
+.skill-chip:hover { background: var(--color-chip-hover-bg); border-color: var(--color-chip-hover-border); box-shadow: var(--shadow-sm); }
+.skill-chip:active { background: var(--color-chip-active-bg); border-color: var(--color-chip-active-border); filter: brightness(1); }
+
+h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+a { color: var(--color-link); text-decoration: none; }
+a:hover { color: var(--color-link-hover); text-decoration: underline; }
+a:active { color: var(--color-link-active); }
+
+address {
+  font-style: normal;
+}
+
+figure,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global base padding simplified; header handled separately (compacted) */
+main, aside, footer { padding: 1rem var(--column-pad-x); }
+@media (max-width: 600px) {
+  main, aside, footer { padding: 0.7rem var(--column-pad-x-mobile); }
+}
+
+header {
+  padding-bottom: 0.35rem;
+}
+
+aside { border-top: 1px solid var(--color-divider); }
+
+footer {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 1.25rem;
+}
+
+/* Header card adjustments */
+/* Header container resets */
+.page-header { background: transparent; border: none; padding: 0; margin: 0 0 1rem; }
+
+/* Header card differentiation (gradient + accent bar) */
+.header-card {
+  position: relative;
+  /* Will be width-constrained below with a more specific selector to beat .container */
+  max-width: 100%;
+  background: linear-gradient(180deg, var(--color-surface) 0%, var(--color-surface-alt) 130%);
+  overflow: hidden;
+}
+.header-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-highlight));
+  pointer-events: none;
+}
+
+/* Tweak internal flex spacing since we removed the outer header padding */
+.header-card .header-top { gap: 1.25rem; }
+
+/* Remove border around circular image so corners of transparent PNG don't show a rectangle */
+/* Circular image without rectangular border */
+.header-image { border: none; background: var(--color-surface-alt); display: block; }
+
+/* Ensure theme toggle still anchors correctly inside the card */
+.header-card #theme-toggle { top: .75rem; right: .75rem; }
+
+@media (max-width: 600px) {
+  .page-header { margin: 0 0 1rem; }
+  .header-card { padding: 0.9rem 0.95rem; }
+  .header-card .header-top { gap: 0.85rem; }
+  /* If column padding is reduced for mobile in future, update --column-pad-x-mobile accordingly */
+}
+
+/* Utility */
+.block {
+  display: block;
+  margin: 0.25rem 0;
+}
+
+.flex-responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Main Layout */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Align header card so its border matches the inner card edges of columns: subtract column horizontal padding each side */
+.page-header .header-card {
+  /* center within the same outer container width */
+  margin: 0 auto;
+  width: calc(100% - (var(--column-pad-x) * 2));
+  max-width: calc(1200px - (var(--column-pad-x) * 2));
+}
+@media (max-width: 600px) {
+  .page-header .header-card {
+    width: calc(100% - (var(--column-pad-x-mobile) * 2));
+    max-width: calc(1200px - (var(--column-pad-x-mobile) * 2));
+  }
+}
+
+.page-content .container { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+
+.page-footer { background: var(--header-footer-bg-color); }
+
+.page-header .container {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* for absolute-positioned toggle */
+}
+
+.header-top {
+  gap: 1rem;
+}
+
+.header-image {
+  width: 100%;
+  max-width: 256px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border intentionally removed for cleaner look */
+}
+
+.header-info ul {
+  margin: 1rem 0;
+}
+
+.link-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Ensure inline SVG icons inside links inherit the link color */
+.link-with-icon svg {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: currentColor;
+}
+
+.link-with-icon svg path {
+  fill: currentColor;
+}
+
+.header-label { font-size: 1.3rem; color: var(--color-text-muted); margin-top: 0.2rem; margin-bottom: 0.8rem; }
+
+.header-summary {
+  margin: 1.25rem 0;
+}
+
+.page-footer { border-top: 1px solid var(--color-divider); }
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-heading::before,
+.section-heading::after { content: ""; flex: 1; border-bottom: 1px solid var(--color-divider); margin: 0 1rem; }
+
+aside .section-heading {
+  align-items: flex-start;
+  text-align: left;
+  border-left: 4px solid var(--aside-accent-color);
+  padding-left: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+aside .section-heading::before,
+aside .section-heading::after {
+  content: none;
+}
+
+.section-label { font-size: 0.9rem; color: var(--color-text-muted); margin-top: 0.25rem; margin-bottom: 0.5rem; }
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: grid;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+/* Ensure project images span full card width */
+.project-card { overflow: hidden; } /* clip inner bleed to card radius/border for perfect flush */
+.project-card .gallery { grid-template-columns: 1fr; }
+/* Make images flush to the card on left/right/bottom (to inner edge of border) */
+.project-card .gallery { margin: 0.5rem calc(-1 * var(--card-pad-x)) calc(-1 * var(--card-pad-y)); }
+.project-card .gallery figure { width: 100%; margin: 0; }
+.project-card .gallery img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0; /* rely on card's overflow + radius for clean bottom corners */
+}
+
+/* Interest gallery images full width as well */
+.side-gallery figure { width: 100%; margin: 0; }
+.side-gallery img { width: 100%; height: auto; display: block; border-radius: var(--radius-media); }
+
+.main-gallery {
+  grid-template-columns: 1fr;
+}
+
+.side-gallery {
+  grid-template-columns: 1fr;
+}
+
+figcaption { text-align: center; color: var(--color-text-faint); font-size: 0.9rem; margin-top: 0.5rem; font-style: italic; }
+
+/* Lists */
+main ul,
+aside ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0.75rem 0;
+}
+
+main li,
+aside li {
+  margin-bottom: 0.5rem;
+}
+
+.unstyled-list {
+  list-style: none;
+}
+
+.inline-list {
+  list-style: none;
+  gap: 0.25rem;
+}
+
+.inline-list li {
+  display: flex; /* This is for HTML Whitespace Issues */
+}
+
+/* Legacy skill bar & width utilities removed (replaced by skill chips) */
+
+/* Blockquotes */
+blockquote {
+  margin: 1rem 2rem;
+  padding: 1.5rem 2rem;
+  background-color: var(--blockquote-bg-color);
+  border-left: 4px solid var(--blockquote-accent-color);
+  font-style: italic;
+  color: var(--blockquote-text-color);
+  line-height: 1.6;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 37.5rem) {
+  .main-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .side-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 48rem) {
+  aside { border-top: none; border-left: none; }
+
+  aside h1 {
+    font-size: 1.4rem;
+  }
+
+  aside h2 {
+    font-size: 1.1rem;
+  }
+
+  aside h3 {
+    font-size: 1rem;
+  }
+
+  aside h4 {
+    font-size: 1rem;
+  }
+
+  aside h5 {
+    font-size: 1rem;
+  }
+
+  aside h6 {
+    font-size: 1rem;
+  }
+
+  header {
+    padding-bottom: 1rem;
+  }
+
+  .flex-responsive {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .page-content .container { grid-template-columns: 2fr 1fr; align-items: start; }
+
+  .header-top {
+    gap: 2rem;
+  }
+
+  .header-image {
+    max-width: 176px;
+  }
+
+  .header-info {
+    margin-top: 0.5rem;
+  }
+
+  .page-header ul {
+    margin: 0.5rem 0;
+  }
+
+  .inline-list {
+    gap: var(--spacing-inline);
+  }
+
+  .inline-list li:not(:last-child)::after { content: "|"; margin-left: var(--spacing-inline); color: var(--color-divider); }
+
+  .side-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .skill-bar-label {
+    background: transparent !important;
+    background-color: transparent !important;
+    mix-blend-mode: darken;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
