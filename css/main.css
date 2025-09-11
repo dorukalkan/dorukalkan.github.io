@@ -73,7 +73,7 @@
   --blockquote-text-color: var(--color-text-muted);
 
   /* Footer */
-  --footer-font-size: 0.9rem;                 /* slightly smaller for subtlety */
+  --footer-font-size: 0.85rem;                 /* slightly smaller for subtlety */
   --footer-text-color: var(--color-text-faint); /* lighter text on light bg */
 }
 
@@ -139,7 +139,7 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
-body { scrollbar-color: var(--color-scrollbar) transparent; }
+body { scrollbar-color: var(--color-scrollbar) transparent; font-size: 0.95rem; }
 
 ::selection {
   background: var(--color-selection-bg);
@@ -222,7 +222,7 @@ main, aside { padding: 1.25rem var(--column-pad-x); }
   color: var(--color-text);
   border: 1px solid var(--color-border);
   padding: .4rem .85rem;
-  font-size: .85rem;
+  font-size: .8rem;
   border-radius: 999px; /* pill */
   cursor: pointer;
   line-height: 1;
@@ -246,15 +246,14 @@ main, aside { padding: 1.25rem var(--column-pad-x); }
 .skill-chip:hover { background: var(--color-chip-hover-bg); border-color: var(--color-chip-hover-border); box-shadow: var(--shadow-sm); }
 .skill-chip:active { background: var(--color-chip-active-bg); border-color: var(--color-chip-active-border); filter: brightness(1); }
 
-h5 {
-  font-size: 1rem;
-  font-weight: 500;
-}
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 0.95rem; }
 
-h6 {
-  font-size: 1rem;
-  font-weight: 500;
-}
+h5 { font-size: 0.95rem; font-weight: 500; }
+
+h6 { font-size: 0.95rem; font-weight: 500; }
 
 p {
   margin: 0.75rem 0;
@@ -411,7 +410,7 @@ section {
   fill: currentColor;
 }
 
-.header-label { font-size: 1.3rem; color: var(--color-text-muted); margin-top: 0.2rem; margin-bottom: 0.8rem; }
+.header-label { font-size: 1.2rem; color: var(--color-text-muted); margin-top: 0.2rem; margin-bottom: 0.8rem; }
 
 .header-summary {
   margin: 1.25rem 0;
@@ -442,7 +441,7 @@ aside .section-heading::after {
   content: none;
 }
 
-.section-label { font-size: 0.9rem; color: var(--color-text-muted); margin-top: 0.25rem; margin-bottom: 0.5rem; }
+.section-label { font-size: 0.85rem; color: var(--color-text-muted); margin-top: 0.25rem; margin-bottom: 0.5rem; }
 
 /* Images */
 img {
@@ -482,7 +481,7 @@ img {
   grid-template-columns: 1fr;
 }
 
-figcaption { text-align: center; color: var(--color-text-faint); font-size: 0.9rem; margin-top: 0.5rem; font-style: italic; }
+figcaption { text-align: center; color: var(--color-text-faint); font-size: 0.85rem; margin-top: 0.5rem; font-style: italic; }
 
 /* Lists */
 main ul,
@@ -540,27 +539,27 @@ blockquote {
   aside { border-top: none; border-left: none; }
 
   aside h1 {
-    font-size: 1.4rem;
+  font-size: 1.3rem;
   }
 
   aside h2 {
-    font-size: 1.1rem;
+  font-size: 1.05rem;
   }
 
   aside h3 {
-    font-size: 1rem;
+  font-size: 0.95rem;
   }
 
   aside h4 {
-    font-size: 1rem;
+  font-size: 0.95rem;
   }
 
   aside h5 {
-    font-size: 1rem;
+  font-size: 0.95rem;
   }
 
   aside h6 {
-    font-size: 1rem;
+  font-size: 0.95rem;
   }
 
   header {
