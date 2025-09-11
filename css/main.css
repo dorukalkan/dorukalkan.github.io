@@ -18,10 +18,10 @@
   /* Light theme — Black & White identity (cards darker than bg) */
   --color-bg: #ffffff;            /* page */
   --color-bg-alt: #fcfcfc;        /* subtle sections */
-  --color-surface: #f5f5f5;       /* cards (darker than bg) */
-  --color-surface-alt: #f0f0f0;   /* alt card */
-  --color-surface-tint: #ebebeb;  /* hover / tint */
-  --color-border: #bdbdbd;        /* distinct card frame */
+  --color-surface: #ececec;       /* cards (darker than bg) */
+  --color-surface-alt: #e6e6e6;   /* alt card */
+  --color-surface-tint: #e1e1e1;  /* hover / tint */
+  --color-border: #b3b3b3;        /* distinct card frame */
   --color-divider: #e0e0e0;       /* light separators */
   --color-text: #0f0f0f;          /* near-black */
   --color-text-muted: #565656;    /* muted */
@@ -74,13 +74,13 @@
 
 .theme-dark {
   /* Dark theme — Black & White identity (cards darker than bg) */
-  --color-bg: #1c1c1c;        /* page (lighter for clearer card contrast) */
-  --color-bg-alt: #202020;    /* alt background */
-  --color-surface: #0f0f0f;   /* cards (darker than bg) */
-  --color-surface-alt: #0d0d0d; /* alt card */
-  --color-surface-tint: #181818; /* hover / tint */
-  --color-border: #2a2a2a;    /* distinct against surface */
-  --color-divider: #262626;   /* separators */
+  --color-bg: #2b2b2b;        /* page */
+  --color-bg-alt: #242424;    /* subtle alt background */
+  --color-surface: #1f1f1f;   /* cards (darker than bg) */
+  --color-surface-alt: #1c1c1c; /* alt card (a touch darker) */
+  --color-surface-tint: #262626; /* hover / tint (slightly lighter than surface) */
+  --color-border: #3a3a3a;    /* distinct, neutral gray border */
+  --color-divider: #343434;   /* neutral separators */
   --color-text: #f0f0f0;      /* near-white */
   --color-text-muted: #b5b5b5;
   --color-text-faint: #8e8e8e;
