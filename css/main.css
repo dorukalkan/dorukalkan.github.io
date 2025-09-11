@@ -70,6 +70,10 @@
   --blockquote-bg-color: #f7f7f7;
   --blockquote-accent-color: #9a9a9a;
   --blockquote-text-color: var(--color-text-muted);
+
+  /* Footer */
+  --footer-font-size: 0.9rem;                 /* slightly smaller for subtlety */
+  --footer-text-color: var(--color-text-faint); /* lighter text on light bg */
 }
 
 .theme-dark {
@@ -118,6 +122,9 @@
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.6);
   --shadow-md: 0 2px 6px rgba(0,0,0,0.6);
   --shadow-focus: 0 0 0 3px rgba(122,162,255,0.45);
+
+  /* Footer overrides for dark theme */
+  --footer-text-color: var(--color-text-faint); /* darker (less bright) for subtlety */
 }
 
 /* Base Styles */
@@ -401,7 +408,7 @@ section {
   margin: 1.25rem 0;
 }
 
-.page-footer { border-top: 1px solid var(--color-divider); }
+.page-footer { border-top: 1px solid var(--color-divider); color: var(--footer-text-color); font-size: var(--footer-font-size); }
 
 .section-heading {
   display: flex;
