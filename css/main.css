@@ -56,7 +56,8 @@
   --color-chip-active-bg: #dfdfdf;
   --color-chip-active-border: #a8a8a8;
 
-  --color-selection-bg: #e5e7eb;
+  --color-selection-bg: #c6c6c6;          /* mid-gray between text and card for light theme */
+  --color-selection-text: #0f0f0f;        /* keep text dark on lighter selection */
   --color-code-bg: #f6f6f6;
   --color-scrollbar: #bfbfbf;
 
@@ -115,7 +116,8 @@
   --color-chip-active-bg: #343434;
   --color-chip-active-border: #5a5a5a;
 
-  --color-selection-bg: #2a2a2a;
+  --color-selection-bg: #4a4a4a;          /* mid-leaning gray to clearly stand out on #1f1f1f cards */
+  --color-selection-text: #ffffff;        /* bright text on darker selection */
   --color-code-bg: #0f0f0f;
   --color-scrollbar: #3a3a3a;
 
@@ -139,7 +141,14 @@ html, body {
 
 body { scrollbar-color: var(--color-scrollbar) transparent; }
 
-::selection { background: var(--color-selection-bg); }
+::selection {
+  background: var(--color-selection-bg);
+  color: var(--color-selection-text);
+}
+::-moz-selection {
+  background: var(--color-selection-bg);
+  color: var(--color-selection-text);
+}
 
 :focus-visible { outline: 2px solid var(--color-focus-ring); outline-offset: 3px; }
 
@@ -448,7 +457,7 @@ img {
 }
 
 /* Ensure project images span full card width */
-.project-card { overflow: hidden; } /* clip inner bleed to card radius/border for perfect flush */
+.project-card { overflow: hidden; /* clip inner bleed to card radius/border for perfect flush */ }
 .project-card .gallery { grid-template-columns: 1fr; }
 /* Make images flush to the card on left/right/bottom (to inner edge of border) */
 .project-card .gallery { margin: 0.5rem calc(-1 * var(--card-pad-x)) calc(-1 * var(--card-pad-y)); }
