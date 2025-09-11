@@ -46,7 +46,7 @@ def sanitize_path(p: str) -> str:
 
 def main() -> None:
     root = Path(__file__).parent
-    json_path = root / "doruk_portfolio.json"
+    json_path = root / "portfolio.json"
     if not json_path.exists():
         raise FileNotFoundError(f"Portfolio JSON not found at {json_path}")
 
