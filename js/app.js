@@ -3,7 +3,7 @@
 	const STORAGE_KEY = 'portfolio-theme';
 	const CLASS_DARK = 'theme-dark';
 	const toggleBtn = document.getElementById('theme-toggle');
-	const iconSpan = toggleBtn ? toggleBtn.querySelector('[data-theme-icon]') : null;
+	// We no longer update icon text; icons are controlled with CSS via theme class
 	const metaTheme = document.getElementById('meta-theme-color');
 
 	function systemPrefersDark() {
@@ -14,14 +14,15 @@
 		const root = document.documentElement; // <html>
 		if (dark) {
 			root.classList.add(CLASS_DARK);
-			if (iconSpan) iconSpan.textContent = '☀️';
 			if (metaTheme) metaTheme.setAttribute('content', '#0f1419');
 		} else {
 			root.classList.remove(CLASS_DARK);
-			if (iconSpan) iconSpan.textContent = '🌙';
 			if (metaTheme) metaTheme.setAttribute('content', '#ffffff');
 		}
-		if (toggleBtn) toggleBtn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+		if (toggleBtn) {
+			toggleBtn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+			toggleBtn.setAttribute('aria-label', dark ? 'Activate light theme' : 'Activate dark theme');
+		}
 	}
 
 	function getStoredPreference() {
@@ -46,9 +47,9 @@
 
 	if (toggleBtn) {
 		toggleBtn.addEventListener('click', () => {
-			const isDark = document.documentElement.classList.toggle(CLASS_DARK);
-			applyTheme(isDark);
-			storePreference(isDark ? 'dark' : 'light');
+			const willBeDark = !document.documentElement.classList.contains(CLASS_DARK);
+			applyTheme(willBeDark);
+			storePreference(willBeDark ? 'dark' : 'light');
 		});
 	}
 })();
