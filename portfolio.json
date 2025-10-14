@@ -11,8 +11,8 @@
   "url": "",
   "social_links": [
     {
-      "label": "dorukalkan1.0@gmail.com",
-      "url": "dorukalkan1.0@gmail.com",
+      "label": "Contact Me",
+      "url": "mailto:dorukalkan1.0@gmail.com",
       "svg_path": "img/gmail.svg"
     },
     {
@@ -27,6 +27,16 @@
     }
   ],
   "projects": [
+    {
+      "title": "Airflow Data Pipeline",
+      "summary": "Modern ELT pipeline built with Dockerized PostgreSQL databases, dbt, and Airflow for automated data transformations ready for analytics. Raw data is extracted from a source Postgres database, transformed using dbt, orchestrated with Airflow, containerized via Docker, and automated with Python.",
+      "url": "https://github.com/dorukalkan/postgres-dbt-airflow-pipeline",
+      "highlights": "",
+      "images": {
+        "img_path": "assets/elt_pipeline_diagram.png",
+        "caption": "Pipeline architecture diagram"
+      }
+    },
     {
       "title": "Cookie Cats A/B Test Analysis",
       "summary": "A/B test on a mobile puzzle game Cookie Cats to decide whether to implement a change in the game's level placement. Conducted exploratory data analysis, sanity checks, and statistical testing using Python to evaluate the impact of the change on retention and engagement metrics.",
@@ -93,6 +103,7 @@
       "chips": [
         { "label": "Python" },
         { "label": "SQL" },
+        { "label": "Bash" },
         { "label": "R" }
       ]
     },
@@ -102,7 +113,9 @@
         { "label": "pandas" },
         { "label": "NumPy" },
         { "label": "SciPy" },
-        { "label": "statsmodels" }
+        { "label": "statsmodels" },
+        { "label": "matplotlib" },
+        { "label": "seaborn" }
       ]
     },
     {
@@ -110,8 +123,7 @@
       "chips": [
         { "label": "PostgreSQL" },
         { "label": "MySQL" },
-        { "label": "SQL Server" },
-        { "label": "SQLite" }
+        { "label": "SQL Server" }
       ]
     },
     {
@@ -128,9 +140,7 @@
       "chips": [
         { "label": "Power BI" },
         { "label": "Tableau" },
-        { "label": "matplotlib" },
-        { "label": "seaborn" },
-        { "label": "plotly" },
+        { "label": "Looker Studio" },
         { "label": "Excel" }
       ]
     }
