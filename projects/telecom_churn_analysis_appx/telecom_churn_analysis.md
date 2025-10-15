@@ -141,7 +141,7 @@ To examine if this churn is related to the amount of internet usage, I've create
   <img src="/projects/telecom_churn_analysis_appx/table_unlimited_plan.png" alt="Table of unlimited plan">
 </a>
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects//telecom_churn_analysis_appx/fig_data_consumption.png" target="_blank">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/fig_data_consumption.png" target="_blank">
   <img src="/projects/telecom_churn_analysis_appx/fig_data_consumption.png" alt="Data Consumption Figure">
 </a>
 
@@ -179,8 +179,8 @@ Lastly, I've built a dashboard by bringing together relevant tables and charts, 
 - Data consumption
 - Churn rate by state
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/telecom_dashboard.png" target="_blank">
-  <img src="projects/telecom_churn_analysis_appx/telecom_dashboard.png" alt="Telecom Churn Dashboard">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/telecom_churn_analysis_appx/telecom_dashboard.png" target="_blank">
+  <img src="/projects/telecom_churn_analysis_appx/telecom_dashboard.png" alt="Telecom Churn Dashboard">
 </a>
 
 ### 5. Insights & recommendations

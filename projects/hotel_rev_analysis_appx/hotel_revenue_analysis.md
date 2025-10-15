@@ -85,7 +85,7 @@ GROUP BY arrival_date_year, hotel;
 
 I created an interactive dashboard utilizing the previous queries to visualize key performance metrics such as total revenue, ADR, total hotel stays, required parking spaces. I added charts with trendlines, date sliders, and a revenue table as a quick and easy way to get a sense of various KPIs.
 
-<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/hotel_rev_analysis_appx/hotel_rev_dashboard.png" target="_blank">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/projects/hotel_rev_analysis_appx/hotel_rev_dashboard.png" target="_blank">
   <img src="/projects/hotel_rev_analysis_appx/hotel_rev_dashboard.png" alt="Final interactive Power BI dashboard">
 </a>
 
