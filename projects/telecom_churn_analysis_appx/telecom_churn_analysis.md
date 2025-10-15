@@ -179,7 +179,7 @@ Lastly, I've built a dashboard by bringing together relevant tables and charts, 
 - Data consumption
 - Churn rate by state
 
-<a href="https://github.com/dorukalkan/dorukalkan.github.io/blob/main/assets/telecom_dashboard.png" target="_blank">
+<a href="https://raw.githubusercontent.com/dorukalkan/dorukalkan.github.io/refs/heads/main/assets/telecom_churn_analysis_appx/telecom_dashboard.png" target="_blank">
   <img src="projects/telecom_churn_analysis_appx/telecom_dashboard.png" alt="Telecom Churn Dashboard">
 </a>
 
