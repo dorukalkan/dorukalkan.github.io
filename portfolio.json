@@ -110,12 +110,12 @@
     {
       "name": "Python Ecosystem",
       "chips": [
-        { "label": "pandas" },
+        { "label": "Pandas" },
         { "label": "NumPy" },
         { "label": "SciPy" },
-        { "label": "statsmodels" },
-        { "label": "matplotlib" },
-        { "label": "seaborn" }
+        { "label": "Statsmodels" },
+        { "label": "Matplotlib" },
+        { "label": "Seaborn" }
       ]
     },
     {
