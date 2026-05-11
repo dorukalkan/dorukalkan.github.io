@@ -1,10 +1,10 @@
-/* site title in the top header. .md-ellipsis is global and nav items use it too. */
+/* site title in the top header. .md-ellipsis is global and nav items use it too */
 .md-header__title .md-header__topic:first-child {
   font-family: var(--md-code-font), monospace;
   font-weight: 600;
 }
 
-/* page title only - sidebar and toc titles live outside .md-content. */
+/* page title only - sidebar and toc titles live outside .md-content */
 .md-content__inner > h1:first-child {
   font-family: var(--md-code-font), monospace;
   font-weight: 600;
