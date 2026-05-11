@@ -19,6 +19,9 @@ venv/
 # Zensical build output
 site/
 
+# Zensical page example
+docs/example.md
+
 # Local environment
 .env
 .env.*
