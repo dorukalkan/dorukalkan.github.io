@@ -1,6 +1,6 @@
 [project]
 site_name = "doruk docs"
-site_url = "https://docs.dorukalkan.com"
+site_url = "https://dorukalkan.github.io"
 site_description = "Personal notes, references, and documentation."
 site_author = "Doruk Alkan"
 docs_dir = "docs"

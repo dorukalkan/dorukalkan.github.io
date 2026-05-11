@@ -42,9 +42,6 @@ jobs:
       - name: Build site
         run: uv run zensical build --clean
 
-      - name: Include custom domain
-        run: cp CNAME site/CNAME
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
