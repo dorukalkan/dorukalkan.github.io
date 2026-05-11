@@ -7,7 +7,7 @@ docs_dir = "docs"
 site_dir = "site"
 language = "en"
 extra_css = ["stylesheets/extra.css"]
-copyright = "&copy; 2026 doruk alkan"
+copyright = "&copy; 2026 Doruk Alkan"
 
 [project.theme]
 favicon = "assets/images/favicon.svg"

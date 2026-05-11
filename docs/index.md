@@ -1,5 +1,7 @@
 ---
 title: Welcome
+hide:
+  - path
 ---
 
 # Welcome
