@@ -1,21 +1,54 @@
 [project]
 site_name = "doruk docs"
 site_url = "https://docs.dorukalkan.com"
-site_description = "Personal technical notes, references, and project documentation."
+site_description = "Personal notes, references, and documentation."
 site_author = "Doruk Alkan"
 docs_dir = "docs"
 site_dir = "site"
+language = "en"
+extra_css = ["stylesheets/extra.css"]
+copyright = "&copy; 2026 doruk alkan"
 
 [project.theme]
-logo = "assets/images/logo.png"
-favicon = "assets/images/favicon.ico"
+favicon = "assets/images/favicon.svg"
+font.text = "IBM Plex Sans"
+font.code = "IBM Plex Mono"
+features = [
+    "navigation.footer",
+    "search.highlight",
+    "navigation.path",
+    "navigation.top",
+    "content.code.copy"
+]
 
-[[project.theme.palette]] 
+[project.theme.icon]
+logo = "material/robot-excited-outline"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
+# Palette toggle for dark mode
 [[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/dorukalkan"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://linkedin.com/in/dorukalkan"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/envelope"
+link = "mailto:dorukalkan42@gmail.com"
+
+[project.extra]
+generator = false
