@@ -1,0 +1,18 @@
+[project]
+site_name = "doruk docs"
+site_url = "https://docs.dorukalkan.com"
+site_description = "Personal technical notes, references, and project documentation."
+site_author = "Doruk Alkan"
+docs_dir = "docs"
+site_dir = "site"
+
+nav = [
+    { "Home" = "index.md" },
+]
+
+# Custom images should live under docs/. Zensical copies them into site/ at build time.
+# After adding the files, uncomment and adjust these paths if needed:
+#
+# [project.theme]
+# logo = "assets/images/logo.svg"
+# favicon = "assets/images/favicon.png"
